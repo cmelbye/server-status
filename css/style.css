@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+li {
+    margin: 5px 0;
+}
+
+div#header {
+    font-size: 130%;
+    margin-top: 3em;
+    color: #007200;
+    font-weight: bold;
+}
+
+div#navigation {
+    font-size: 120%;
+    color: #aaa;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+div#navigation a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+div#navigation a:hover {
+    color: #000;
+}
+
+div#navigation ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+div#navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+table.status tr.headings {
+    background-color: #CCC;
+}
+table.status tr td.service {
+    font-weight: bold;
+}
+
+table.status tr td.status img {
+    position: relative;
+    bottom: -3px;
+    margin-right: 3px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    font-size: 105%;
+}
+
+form textarea {
+    width: 450px;
+    height: 200px;
+}
+
+div#footer {
+    color: #aaa;
+    font-size: 90%;
+    margin-top: 1em;
+}

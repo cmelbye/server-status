@@ -1,0 +1,20 @@
+<form action="/status/edit" method="post">
+	<fieldset>
+		<legend>Update Status Data</legend>
+		<div>
+			<label for="status_data">Status Data</label>
+			<textarea name="status_data" id="status_data">
+<?= $status_data ?>
+</textarea>
+		</div>
+
+		<div>
+			<label for="update_password">Update Password</label>
+			<input type="password" name="update_password" id="update_password" class="title" />
+		</div>
+
+		<div>
+			<input type="submit" value="Commit Changes" />
+		</div>
+	</fieldset>
+</form>

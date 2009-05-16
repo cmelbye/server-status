@@ -1,0 +1,24 @@
+<table class="status">
+	<tr class="headings">
+		<th>Service</th>
+		<th>Status</th>
+		<th>Explaination</th>
+	</tr>
+	<? foreach( $statuses as $service => $status): ?>
+	<tr>
+		<td class="service"><?= $service ?></td>
+		<td class="status"><?= buildStatus( $status['status'] ) ?></td>
+		<td class="description">
+			<? if( $status['description'] ): ?>
+				<?= $status['description'] ?>
+			<? else: ?>
+				None.
+			<? endif; ?>
+		</td>
+	</tr>
+	<? endforeach; ?>
+</table>
+
+<br />
+
+<a href="/status/edit">Edit Server Statuses</a>
