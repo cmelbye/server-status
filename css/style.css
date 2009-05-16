@@ -70,6 +70,7 @@ form label {
 form textarea {
     width: 450px;
     height: 200px;
+    font-family: monospace;
 }
 
 div#footer {
