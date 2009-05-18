@@ -52,7 +52,7 @@ class edit_status extends command {
 
 		$password = $_POST['update_password'];
 		if( $password == $updatePassword ) {
-			$status_data = $_POST['status_data'];
+			$status_data = stripslashes($_POST['status_data']);
 			file_put_contents( $statusPath, $status_data );
 			header('Location: /status');
 			return;
